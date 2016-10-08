@@ -1,0 +1,11 @@
+[db]
+host = localhost
+database = payment_api
+username = root
+password = foobar
+
+[auth]
+signing_key = foobar
+
+[environment]
+debug = true

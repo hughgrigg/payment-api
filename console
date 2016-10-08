@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+$app = require __DIR__.'/bootstrap/configure.php';
+
+use PaymentApi\Structure\Console;
+
+(new Console($argv, $app))->execute();
